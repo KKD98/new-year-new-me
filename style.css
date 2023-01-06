@@ -111,7 +111,6 @@
     width: 70%;
     height: 250px;
     margin-top: 80px;
-    /* margin: 80px 200px; */
     margin-bottom: 40px;
 
 }
@@ -155,4 +154,31 @@
     color: #737272;
     font-weight: 500;
     font-size: 13px;
+}
+
+/* Second Field Section */
+.third-field {
+    width: 70%;
+    height: 250px;
+    background-image: linear-gradient(to right, rgba(228, 61, 11, 0.52), rgba(31, 27, 30, 0.73)), url('../images/watch.png');
+    margin-bottom: 60px;
+    border-radius: 5px;
+}
+
+.third-field-title {
+    color: #FFFFFF;
+    margin-left: 70px;
+    padding-top: 60px;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.third-field-button{
+color: orangered;
+background-color: white;
+padding: 15px;
+border: none;
+border-radius: 5px;
+margin-left: 70px;
 }
