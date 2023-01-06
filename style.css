@@ -30,7 +30,7 @@
     margin-bottom: 20px;
 }
 
-.banner-description{
+.banner-description {
     color: #444343;
     text-align: right;
     font-size: 10px;
@@ -40,12 +40,12 @@
     width: 50%;
 }
 
-.banner-button{
+.banner-button {
     text-align: right;
     padding-right: 120px;
 }
 
-.contact-button{
+.contact-button {
     background-color: rgb(202, 86, 43);
     color: white;
     border: none;
@@ -55,50 +55,104 @@
 }
 
 /* First Field Section Styles */
-.first-field{
+.first-field {
     display: flex;
     gap: 30px;
     margin: 40px 200px;
 }
-.image-field{
+
+.image-field {
     padding-left: 50px;
 }
-.first-field-img{
+
+.first-field-img {
     height: 480px;
     width: 100%;
     padding-left: 20px;
 }
 
-.first-field-text{
+.first-field-text {
     padding: 20px;
     margin-bottom: 50px;
     height: 100px;
     width: 30%;
 }
 
-.first-field-title{
+.first-field-title {
     font-weight: 600;
     font-size: 25px;
     margin-top: 130px;
     margin-bottom: 20px;
     /* margin-right: 10px; */
-    
+
 }
 
-.first-field-prgrp{
+.first-field-prgrp {
     color: #444343;
     font-weight: 400;
     font-size: 12px;
-    margin-bottom: 20px;   
+    margin-bottom: 20px;
 }
 
-.first-field-prgrp2{
+.first-field-prgrp2 {
     color: #444343;
     font-weight: 400;
     font-size: 12px;
 }
 
-.tick-mark{
+.tick-mark {
     height: 10px;
     width: 3%;
+}
+
+/* Second Field Section Styles */
+
+.second-field {
+    width: 70%;
+    height: 250px;
+    margin-top: 80px;
+    /* margin: 80px 200px; */
+    margin-bottom: 40px;
+
+}
+
+.second-field-title {
+    font-weight: 700;
+    font-size: 26px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.field-boxes {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+
+}
+
+.box {
+    height: 150px;
+    width: 15%;
+}
+
+.box-icon {
+    width: 40%;
+    height: 55px;
+    padding-left: 40px;
+    margin-bottom: 10px;
+}
+
+.box-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.box-text {
+    text-align: center;
+    color: #737272;
+    font-weight: 500;
+    font-size: 13px;
 }
