@@ -174,11 +174,69 @@
     margin-bottom: 30px;
 }
 
-.third-field-button{
-color: orangered;
-background-color: white;
-padding: 15px;
-border: none;
-border-radius: 5px;
-margin-left: 70px;
+.third-field-button {
+    color: orangered;
+    background-color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 70px;
+}
+
+/* Footer Styles */
+
+.footer-class {
+    display: flex;
+    width: 70%;
+    height: 320px;
+    background-color: #151414;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.footer-part {
+    width: 40%;
+    margin-top: 70px;
+    margin-left: 70px;
+}
+
+.footer-title {
+    color: #F8F8F8;
+    font-weight: 600;
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+
+.footer-text {
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+
+.icon{
+    width: 9%;
+}
+
+.subscribe-title{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.subscribe-input{
+    color: white;
+    background-color: #151414;
+    border-color: white;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+}
+.subscribe-button{
+    color: orangered;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    padding:10px 15px;
 }
