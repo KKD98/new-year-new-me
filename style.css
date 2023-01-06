@@ -10,6 +10,7 @@
     padding: 0;
     width: 70%;
     height: 400px;
+    margin-bottom: 150px;
 }
 
 .banner {
@@ -50,4 +51,54 @@
     border: none;
     padding: 15px;
     border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+/* First Field Section Styles */
+.first-field{
+    display: flex;
+    gap: 30px;
+    margin: 40px 200px;
+}
+.image-field{
+    padding-left: 50px;
+}
+.first-field-img{
+    height: 480px;
+    width: 100%;
+    padding-left: 20px;
+}
+
+.first-field-text{
+    padding: 20px;
+    margin-bottom: 50px;
+    height: 100px;
+    width: 30%;
+}
+
+.first-field-title{
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 130px;
+    margin-bottom: 20px;
+    /* margin-right: 10px; */
+    
+}
+
+.first-field-prgrp{
+    color: #444343;
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 20px;   
+}
+
+.first-field-prgrp2{
+    color: #444343;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.tick-mark{
+    height: 10px;
+    width: 3%;
 }
